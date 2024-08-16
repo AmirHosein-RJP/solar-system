@@ -1,0 +1,36 @@
+*, &::after, &::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+@keyframes orbit-rotate{
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: -360deg;
+    }
+}
+@keyframes info-rotate{
+    to{
+        rotate: 360deg;
+    }
+}
+@font-face {
+    font-family: HelveticaNeuemedium;
+    src: url(../Fonts/HelveticaNeueMedium.otf);
+}
+@font-face {
+    font-family: HelveticaNeuelight;
+    src: url(../Fonts/HelveticaNeueLight.otf);
+}
+@font-face {
+    font-family: LeagueGothic;
+    src: url(../Fonts/LeagueGothic-Regular-VariableFont_wdth.ttf);
+}
+@font-face {
+    font-family: Quantico-Regular;
+    src: url(../Fonts/Quantico-Regular.ttf);
+}
+@font-face {
+    font-family: DMSans;
+    src: url(../Fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
